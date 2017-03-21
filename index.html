@@ -1,0 +1,96 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<title>Bootstrap Exmaple</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="https://code.jquery.com/jquery-3.2.0.min.js" integrity="sha256-JAW99MJVpJBGcbzEuXk4Az05s/XyDdBomFqNlM3ic+I=" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="src/main.css">
+<script src='src/main.js'></script>
+
+</head>
+
+<body>
+<nav class="navbar navbar-default">
+    <div class="container-fluid">
+        <!-- this is the branding on the header aligned left by default -->
+            <!-- I can't figure out how to make this active... -->
+            <!--
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsedButtons" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            </button>
+            -->
+        <!--
+        <div class='collapse navbar-collapse' id='collapsedButtons'>
+            <ul class='nav navbar-nav navbar-right'>
+                <li><a href="#">About<span class='sr-only'></span></a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+        -->
+        <ul class='nav navbar-nav navbar-right'>
+            <li><a href='#About'>About</a></li>
+            <li><a href='#Portfolio'>Portfolio</a></li>
+            <li><a href='#Contact'>Contact</a></li>
+        </ul>
+    </div>
+</nav>
+
+<div class='container-fluid header'>
+    <div class='jumbotron'>
+        <div class='row'>
+            <div class='col-lg-8'>
+                <h2 class='text-center'> Amateur Photographer, Mountain Biker, Wannabe Developer</h2> 
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id='Portfolio' class='container-fluid portfolio'>
+    <!-- This is currently a place holder. You should use JS to populate these elements with images from server -->
+    <div class='row'>
+    <h2 class='text-center'>Portfolio</h2>
+        <div class='col-md-4'>
+            <div class='thumbnail'>
+                <img src='/Users/StupidRobot/Dropbox/RyansPictures/FrozenRosePainterlyNovember2016.jpg' alt='Frozen Rose' style='width:100%'>
+                <div class='caption'>
+                    <p>The Frozen Rose</p>
+                </div>
+            </div>
+        </div>
+        <div class='col-md-4'>
+            <div class='thumbnail'>
+                <img src='/Users/StupidRobot/Dropbox/RyansPictures/GoletaBeachSunriseSeptember2016.jpg' alt='Sunrise' style='width:100%'>
+                <div class='caption'>
+                    <p>Sunrise at Goleta Beach</p>
+                </div>
+            </div>
+        </div>
+        <div class='col-md-4'>
+            <div class='thumbnail'>
+                <img src='/Users/StupidRobot/Dropbox/RyansPictures/ExplodingRainDropsJuly2016.jpg' alt='Rain Drops' style='width:100%'>
+                <div class='caption'>
+                    <p>Exploding rain drops in Colorado</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class='container-fluid' id='About'>
+    <h2 class='text-center'>About</h2>
+</div>
+
+<div class='container-fluid' id='Contact'>
+    <h2 class='text-center'>Contact</h2>
+</div>
+
+
+</body>
+</html>
