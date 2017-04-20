@@ -37,7 +37,7 @@ for (i=0; i<thumbNails.length; i++) {
     // put this into the document
     document.getElementById('portfolio-row').appendChild(divCol);
 
-    // Now add the modal functionality to each figure.
+    // Now add the modal functionality to each figure. // It looks like it's better to use react to do this.
     // Create variables
     var divModal = document.createElement('div');
     var divModalContent = document.createElement('div');
